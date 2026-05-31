@@ -153,10 +153,10 @@ dmypy.json
 cython_debug/
 
 
-data/*/
+# data/*/
 !data/*/.gitkeep
 *.zip
-*.png
+# *.png
 *.jpg
 *.err
 # *.sh
@@ -167,7 +167,7 @@ data/*/
 
 # ---
 # wandb/**
-checkpoints/*/*
+# checkpoints/*/*
 *.out
 *.pkl
 *.pth
@@ -176,5 +176,5 @@ outputs/
 cluster_outputs/*/
 # models/
 figs/
-*dicts/*/*
-data/*
+# *dicts/*/*
+# data/*
